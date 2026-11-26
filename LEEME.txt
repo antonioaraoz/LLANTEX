@@ -1,0 +1,36 @@
+LLANTEX PRO - MVP completo
+Módulos: acceso y roles, copias de seguridad, inventario, nueva venta,
+servicios, caja, clientes, compras, reportes (Excel y PDF) e inicio.
+
+QUÉ HAY AQUÍ
+  index.html            La app completa
+  sw.js                 Hace que la app abra sin internet
+  manifest.webmanifest  Permite "Agregar a pantalla de inicio"
+  icon.svg              Ícono
+
+DÓNDE QUEDAN LOS DATOS
+  En la base de datos interna de Chrome, dentro de la tablet o del celular.
+  No se envían a ningún servidor. Por eso hay que hacer copias de seguridad.
+
+CÓMO INSTALAR EN LA TABLET (una sola vez)
+  1. Sube esta carpeta a cualquier hosting estático con https (GitHub Pages,
+     Netlify, Cloudflare Pages). Solo se sube el programa, nunca los datos.
+  2. En la tablet, abre esa dirección en Google Chrome.
+  3. Menú de Chrome (tres puntos) > "Agregar a pantalla de inicio" / "Instalar app".
+  4. Desde ahí, LLANTEX PRO abre sin internet.
+
+COPIAS DE SEGURIDAD
+  Inicio o Ajustes > Copias > "Crear copia ahora". Se crea un archivo
+  llantex_AAAA-MM-DD.json. Guárdalo en una USB (adaptador OTG), en la memoria
+  del equipo o en otro equipo tuyo.
+  Restaurar: Ajustes > Copias > "Elegir archivo de copia" (solo administrador).
+  Antes de restaurar, la app guarda una copia de lo que había.
+
+EXPORTAR REPORTES
+  Excel: genera un archivo .xlsx (abre en Excel, Google Sheets o WPS).
+  PDF: abre la impresión de Chrome; elige "Guardar como PDF".
+
+IMPORTANTE
+  - No borres los "datos de sitio" de Chrome: borrarías la información.
+  - No uses Chrome en modo incógnito.
+  - Haz una copia al cerrar cada día.
